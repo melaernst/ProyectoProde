@@ -39,5 +39,12 @@ namespace Prode.App.Controllers
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
+
+		//Pruebas con bootstrap
+		public IActionResult ProbandoBootstrap()
+		{
+			ViewBag.Mostrar = true;
+			return View();
+		}
     }
 }

@@ -259,3 +259,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/Prode.App/Prode.App/wwwroot/lib/bootstrap/dist/sass
